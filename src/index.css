@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/clock.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+}
+.digital-clock{
+backdrop-filter: blur(5px);
+width: 50vw;
+padding: 15px, 0px;
+}
+.clock{
+  text-align: center;
+  align-items: center;
+  color: snow;
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-shadow: 3px 3px 3px black;
+}
+/*digital clock css*/
